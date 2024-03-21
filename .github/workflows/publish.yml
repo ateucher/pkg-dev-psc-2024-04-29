@@ -2,7 +2,7 @@ on:
   push:
     branches: main
 
-name: Quarto Publish
+name: pkg-dev
 
 jobs:
   build-deploy:
