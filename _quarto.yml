@@ -7,7 +7,7 @@ website:
     background: secondary
     right:
       - icon: github
-        href: https://github.com/posit-conf-2023/pkg-dev
+        href: https://github.com/ateucher/pkg-dev-psc-2024-04-29
         aria-label: GitHub
     left:
       - href: index.qmd
@@ -16,7 +16,7 @@ website:
       - href: materials/slides.pdf
         text: Slides (PDF)
         aria-label: "PDF of slides"
-  repo-url: https://github.com/posit-conf-2023/pkg-dev
+  repo-url: https://github.com/ateucher/pkg-dev-psc-2024-04-29
   repo-actions: [edit, issue]
   sidebar:
     search: true

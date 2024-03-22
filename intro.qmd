@@ -23,9 +23,8 @@ This is intentional - for a self-guided walk-through of package development, I r
 
 ### Code of Conduct
 
-Please note that all participants at posit::conf(2023) and workshops must abide by the [Code of Conduct](https://posit.co/code-of-conduct/).
-Everyone who comes to learn and enjoy the experience should feel welcome at posit::conf.
-Posit is committed to providing a professional, friendly and safe environment for all participants at its events, regardless of gender, sexual orientation, disability, race, ethnicity, religion, national origin or other protected class.
+Please note that all participants must abide by the [Code of Conduct](https://posit.co/code-of-conduct/).
+We are committed to providing a professional, friendly and safe environment for all participants at its events, regardless of gender, sexual orientation, disability, race, ethnicity, religion, national origin or other protected class.
 
 ### Schedule
 
@@ -39,24 +38,6 @@ Posit is committed to providing a professional, friendly and safe environment fo
 | 15:00 - 15:30 | *Coffee break*                                                |
 | 15:30 - 17:00 | Continuous Integration; Package Website; Package Distribution |
 
-### Sticky notes
-
-![](img/sticky-notes.png){fig-alt="Two coloured squares representing sticky notes. The red one says \"I'm stuck, please send help\" and the green one says \"I'm good, let's move on\"." fig-align="center"}
-
-We will be using sticky notes to make sure everyone is getting what they need out of the course.
-Everyone will get two sticky notes of different colours (e.g., one red, one green) that we use as status flags.
-If someone has completed an exercise they put the green sticky note on their laptop; if they run into a problem and need help, put up the red one.
-
-### TAs
-
-Day 1: Michele Peruzzi & Thomas Pedersen
-
-Day 2: Nic Crane and Simon Couch
-
-### Note-taking
-
-We will be using a private Discord channel for note-taking during the course.
-You will be given access before the workshop.
 
 ### References
 

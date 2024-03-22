@@ -1,14 +1,7 @@
 # Fundamentals of Package Development
 
 
-by Andy Teucher
-
-<!--
-:spiral_calendar: September 17 and 18, 2023\
-:alarm_clock: 09:00 - 17:00\
-:hotel: ROOM TBD\
-:writing_hand: [pos.it/conf](http://pos.it/conf)
--->
+by Andy Teucher and Sam Albers
 
 ------------------------------------------------------------------------
 
@@ -50,8 +43,6 @@ Please note that all participants and contributors must abide by the [Code of Co
 
 ## Schedule
 
-### Day 1
-
 | Time          | Activity                                                      |
 |:--------------|:--------------------------------------------------------------|
 | 09:00 - 10:30 | What is a package? Package Structure and State                |
@@ -62,14 +53,6 @@ Please note that all participants and contributors must abide by the [Code of Co
 | 15:00 - 15:30 | *Coffee break*                                                |
 | 15:30 - 17:00 | Continuous Integration; Package Website; Package Distribution |
 
-## Instructor
-
-Andy Teucher is a data scientist and package developer with a passion for teaching others to learn how to use data science tools to make their work more efficient and reproducible.
-His background is in conservation biology, with an MSc in Ecology from the University of Calgary.
-He has spent much of his career as a data scientist in government, where he made it his mission to promote and teach open, reproducible data science practices.
-He has written R packages for internal use in his teams as well as for a broader audience, with several hosted on CRAN.
-Andy especially enjoys developing packages to make it easier to work with spatial data in R.
-Andy is a certified Software Carpentry and Data Carpentry instructor, and has led many workshops teaching programming skills to scientists and data professionals.
 
 ------------------------------------------------------------------------
 
