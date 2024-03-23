@@ -1,14 +1,7 @@
 # Fundamentals of Package Development
 
 
-by Andy Teucher
-
-<!--
-:spiral_calendar: September 17 and 18, 2023\
-:alarm_clock: 09:00 - 17:00\
-:hotel: ROOM TBD\
-:writing_hand: [pos.it/conf](http://pos.it/conf)
--->
+by Andy Teucher and Sam Albers
 
 ------------------------------------------------------------------------
 
@@ -50,8 +43,6 @@ Please note that all participants and contributors must abide by the [Code of Co
 
 ## Schedule
 
-### Day 1
-
 | Time          | Activity                                                      |
 |:--------------|:--------------------------------------------------------------|
 | 09:00 - 10:30 | What is a package? Package Structure and State                |
@@ -62,7 +53,7 @@ Please note that all participants and contributors must abide by the [Code of Co
 | 15:00 - 15:30 | *Coffee break*                                                |
 | 15:30 - 17:00 | Continuous Integration; Package Website; Package Distribution |
 
-## Instructor
+## Instructors
 
 Andy Teucher is a data scientist and package developer with a passion for teaching others to learn how to use data science tools to make their work more efficient and reproducible.
 His background is in conservation biology, with an MSc in Ecology from the University of Calgary.
@@ -70,6 +61,11 @@ He has spent much of his career as a data scientist in government, where he made
 He has written R packages for internal use in his teams as well as for a broader audience, with several hosted on CRAN.
 Andy especially enjoys developing packages to make it easier to work with spatial data in R.
 Andy is a certified Software Carpentry and Data Carpentry instructor, and has led many workshops teaching programming skills to scientists and data professionals.
+
+Sam Albers is a data scientist with 15 years experience writing code for scientific research.
+Sam wrote his first line of code to process data collected on salmon spawning in the Horsefly River watershed. 
+Gradually, he ended up spending more time writing code than studying salmon and moved into a full time data scientist role in government. 
+During that time, Sam developed several packages to facilitate reproducible research and gained a solid foundation in what ittakes to build a good R package.
 
 ------------------------------------------------------------------------
 

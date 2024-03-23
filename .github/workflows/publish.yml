@@ -1,6 +1,8 @@
 on:
   push:
     branches: main
+  pull_request:
+    branches: main
 
 name: Quarto Publish
 
@@ -29,8 +31,16 @@ jobs:
           cache-version: 1
 
       - name: Render and Publish
+        if: ${{ github.ref == 'main' }}
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Test Render
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html # If set, it will be equivalent to `quarto render --to html`
+  
