@@ -195,6 +195,10 @@ Personal access token for 'https://github.com': '<discovered>'
 ```
 :::
 
+## Troubleshooting
+
+If you are having issues with the setup please start a discussion on GitHub [here](https://github.com/ateucher/pkg-dev-psc-2024-04-29/discussions).  
+
 ### References
 
 ::: {#refs}
