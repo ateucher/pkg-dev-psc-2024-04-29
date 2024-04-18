@@ -137,7 +137,7 @@ Communicating with GitLab requires authentication with your GitLAb account.
 This is achieved by creating and securely storing a Personal Access Token (PAT).
 Although focused more on GitHub, the [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/articles/git-credentials.html) vignette in the **`usethis`** [@usethis] package has details on using PATs, but for now the following should suffice.
 
-Create a PAT with using these instructions: https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token
+Create a PAT using these instructions: https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token
 
 
 -   Copy the newly generated PAT to your clipboard.
