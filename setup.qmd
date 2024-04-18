@@ -141,7 +141,7 @@ Create a PAT with using these instructions: https://docs.gitlab.com/ee/user/prof
 
 
 -   Copy the newly generated PAT to your clipboard.
--   Run `gitcreds::gitcreds_set()` in R and paste in your PAT when prompted.
+-   Run `gitcreds::gitcreds_set("https://gitlab.com")` in R and paste in your PAT when prompted.
 -   After you close the PAT webpage, you won't be able to see your PAT again! You can store it somewhere secure, such as in a password manager.
 
 ### Caveat about storing PATs on Linux:
