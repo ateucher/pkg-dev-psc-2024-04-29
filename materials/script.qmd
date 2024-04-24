@@ -63,7 +63,7 @@ use_git()
 ***back to slides***
 
 ```{r}
-devtools::use_devtools()
+usethis::use_devtools()
 ```
 
 Restart R - check that devtools is loaded
@@ -135,11 +135,22 @@ check()
 
 ***back to slides***
 
-```{r}
-use_github()
+#### Tell your git repository where its corresponding repository on GitLab is
+
+```{bash}
+git remote add origin https://gitlab.com/boshek/foo.git
 ```
 
-Go to GitHub page, explore show clone of local
+#### Push all your committed code to that repository
+
+At this step you may be required to enter in your GitLab username and password.
+
+```{bash}
+git push --set-upstream origin main
+```
+
+
+Go to GitLab page, explore show clone of local
 
 ***back to slides***
 
