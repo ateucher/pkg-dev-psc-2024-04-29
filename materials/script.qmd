@@ -461,11 +461,11 @@ package created as a part of a workshop and not meant for serious use.
 
 ## Installation
 
-You can install the development version of libminer from [GitHub](https://github.com/) with:
+You can install the development version of libminer from [GitLab](https://gitlab.com/) with:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("ateucher/libminer")
+devtools::install_gitlab("ateucher/libminer")
 ```
 
 ## Example usage
@@ -498,7 +498,7 @@ install()
 ## Continuous Integration
 
 ```{r}
-use_github_action()
+use_gitlab_ci()
 ```
 
 ```{r}
@@ -509,12 +509,6 @@ build_readme()
 
 *return to slides*
 
-## pkgdown website
-
-```{r}
-use_pkgdown_github_pages()
-```
-
 ## Vignettes
 
 ```{r}
@@ -523,9 +517,6 @@ use_vignette("lib-sitrep", "Package Library Situation Report")
 
 ## Releasing
 
-```{r}
-use_release_issue()
-```
 
 ```{r}
 use_news_md()

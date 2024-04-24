@@ -1,9 +1,15 @@
 ---
-title: Hosting and sharing 📤
+title: Sharing 📤
 ---
 
-## To prepare for CRAN release:
+## Update news
 
 ```{r}
-use_release_issue()
+use_news_md()
+```
+
+## To install your package:
+
+```{r}
+install_gitlab("{your_gitlab_username}/libminer")
 ```
