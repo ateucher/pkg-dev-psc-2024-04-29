@@ -36,7 +36,7 @@ We are committed to providing a professional, friendly and safe environment for 
 | 12:30 - 13:30 | *Lunch break*                                                 |
 | 13:30 - 15:00 | Testing; Dependencies                                         |
 | 15:00 - 15:30 | *Coffee break*                                                |
-| 15:30 - 17:00 | Continuous Integration; Package Website; Package Distribution |
+| 15:30 - 17:00 | Continuous Integration; Package Distribution |
 
 
 ### References

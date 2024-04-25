@@ -63,7 +63,7 @@ use_git()
 ***back to slides***
 
 ```{r}
-devtools::use_devtools()
+usethis::use_devtools()
 ```
 
 Restart R - check that devtools is loaded
@@ -135,11 +135,22 @@ check()
 
 ***back to slides***
 
-```{r}
-use_github()
+#### Tell your git repository where its corresponding repository on GitLab is
+
+```{bash}
+git remote add origin https://gitlab.com/boshek/foo.git
 ```
 
-Go to GitHub page, explore show clone of local
+#### Push all your committed code to that repository
+
+At this step you may be required to enter in your GitLab username and password.
+
+```{bash}
+git push --set-upstream origin main
+```
+
+
+Go to GitLab page, explore show clone of local
 
 ***back to slides***
 
@@ -450,11 +461,11 @@ package created as a part of a workshop and not meant for serious use.
 
 ## Installation
 
-You can install the development version of libminer from [GitHub](https://github.com/) with:
+You can install the development version of libminer from [GitLab](https://gitlab.com/) with:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("ateucher/libminer")
+devtools::install_gitlab("ateucher/libminer")
 ```
 
 ## Example usage
@@ -487,7 +498,7 @@ install()
 ## Continuous Integration
 
 ```{r}
-use_github_action()
+use_gitlab_ci()
 ```
 
 ```{r}
@@ -498,12 +509,6 @@ build_readme()
 
 *return to slides*
 
-## pkgdown website
-
-```{r}
-use_pkgdown_github_pages()
-```
-
 ## Vignettes
 
 ```{r}
@@ -512,9 +517,6 @@ use_vignette("lib-sitrep", "Package Library Situation Report")
 
 ## Releasing
 
-```{r}
-use_release_issue()
-```
 
 ```{r}
 use_news_md()

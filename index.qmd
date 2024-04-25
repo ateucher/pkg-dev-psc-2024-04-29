@@ -3,10 +3,8 @@ title: "Fundamentals of R Package Development"
 subtitle: "1-Day Workshop"
 ---
 
-🗓️ September 17 and 18, 2023\
+🗓️ April 28, 2024\
 ⏱️ 09:00 - 17:00\
-🏨 Hyatt Regency, Room "Michigan 3"\
-✍️ [pos.it/conf](http://pos.it/conf)
 
 ------------------------------------------------------------------------
 
@@ -45,9 +43,9 @@ If you are looking to get started with Git and GitHub, we recommend you register
 | 12:30 - 13:30 | *Lunch break*                                                 |
 | 13:30 - 15:00 | Testing; Dependencies                                         |
 | 15:00 - 15:30 | *Coffee break*                                                |
-| 15:30 - 17:00 | Continuous Integration; Package Website; Package Distribution |
+| 15:30 - 17:00 | Continuous Integration; Package Distribution |
 
-## Instructor
+## Instructors
 
 Andy Teucher is a data scientist and package developer with a passion for teaching others how to use data science tools to make their work more efficient and reproducible.
 His background is in conservation biology, with an MSc in Ecology from the University of Calgary.
@@ -55,6 +53,11 @@ He has spent much of his career as a data scientist in government, where he made
 He has written R packages for internal use in his teams as well as for a broader audience, with several hosted on CRAN.
 Andy especially enjoys developing packages to make it easier to work with spatial data in R.
 Andy is a certified Software Carpentry and Data Carpentry instructor, and has led many workshops teaching programming skills to scientists and data professionals.
+
+Sam Albers is a data scientist with 15 years experience writing code for scientific research.
+Sam wrote his first line of code to process data collected on salmon spawning in the Horsefly River watershed. 
+Gradually, he ended up spending more time writing code than studying salmon and moved into a full time data scientist role in government. 
+During that time, Sam developed several packages to facilitate reproducible research and gained a solid foundation in what ittakes to build a good R package.
 
 ------------------------------------------------------------------------
 
