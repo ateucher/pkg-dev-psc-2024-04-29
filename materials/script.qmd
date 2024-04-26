@@ -149,7 +149,6 @@ At this step you may be required to enter in your GitLab username and password.
 git push --set-upstream origin main
 ```
 
-
 Go to GitLab page, explore show clone of local
 
 ***back to slides***
@@ -348,7 +347,7 @@ test() # failure for unused argument
 
 ```{r}
 test_that("lib_summary fails appropriately", {
-  expect_error(lib_summary(sizes = "foo"), "not interpretable as logical")
+  expect_error(lib_summary(sizes = "foo"), "'sizes' must be logical")
 })
 
 test_that("sizes argument works", {
@@ -516,7 +515,6 @@ use_vignette("lib-sitrep", "Package Library Situation Report")
 ```
 
 ## Releasing
-
 
 ```{r}
 use_news_md()
