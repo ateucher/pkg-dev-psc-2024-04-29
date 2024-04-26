@@ -500,10 +500,6 @@ install()
 use_gitlab_ci()
 ```
 
-```{r}
-build_readme()
-```
-
 **commit and push**
 
 *return to slides*
