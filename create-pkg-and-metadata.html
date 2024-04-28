@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -162,15 +162,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li>
     <a class="dropdown-item" href="./ci.html">
- <span class="dropdown-text">Automated checking with GitHub Actions 🦾</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./website.html">
- <span class="dropdown-text">Create a package website 🕸</span></a>
+ <span class="dropdown-text">Automated checking with GitLab 🦾</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./share.html">
- <span class="dropdown-text">Hosting and sharing 📤</span></a>
+ <span class="dropdown-text">Sharing 📤</span></a>
   </li>  
     </ul>
   </li>
@@ -181,7 +177,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/posit-conf-2023/pkg-dev"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/ateucher/pkg-dev-psc-2024-04-29"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -262,19 +258,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ci.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Automated checking with GitHub Actions 🦾</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./website.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Create a package website 🕸</span></a>
+ <span class="menu-text">Automated checking with GitLab 🦾</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./share.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hosting and sharing 📤</span></a>
+ <span class="menu-text">Sharing 📤</span></a>
   </div>
 </li>
     </ul>
@@ -304,11 +294,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#set-a-license" id="toc-set-a-license" class="nav-link" data-scroll-target="#set-a-license">Set a license</a></li>
   <li><a href="#description-file" id="toc-description-file" class="nav-link" data-scroll-target="#description-file">DESCRIPTION file:</a></li>
   <li><a href="#check-again" id="toc-check-again" class="nav-link" data-scroll-target="#check-again">Check again</a></li>
-  <li><a href="#use-github" id="toc-use-github" class="nav-link" data-scroll-target="#use-github">Use GitHub</a></li>
+  <li><a href="#use-gitlab" id="toc-use-gitlab" class="nav-link" data-scroll-target="#use-gitlab">Use GitLab</a></li>
   <li><a href="#set-a-default-description" id="toc-set-a-default-description" class="nav-link" data-scroll-target="#set-a-default-description">Set a default DESCRIPTION</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/posit-conf-2023/pkg-dev/edit/main/create-pkg-and-metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/posit-conf-2023/pkg-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ateucher/pkg-dev-psc-2024-04-29/edit/main/create-pkg-and-metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ateucher/pkg-dev-psc-2024-04-29/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -413,9 +403,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">lib_summary</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>                          Library n_packages
-1 /home/runner/work/_temp/Library         95
-2      /opt/R/4.3.3/lib/R/library         29
-3 /opt/R/4.3.3/lib/R/site-library          1</code></pre>
+1 /home/runner/work/_temp/Library         96
+2      /opt/R/4.4.0/lib/R/library         29
+3 /opt/R/4.4.0/lib/R/site-library          1</code></pre>
 </div>
 </div>
 </section>
@@ -450,37 +440,57 @@ Description: Provides functions for learning about your R libraries, and the
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">check</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="use-github" class="level3">
-<h3 class="anchored" data-anchor-id="use-github">Use GitHub</h3>
+<section id="use-gitlab" class="level3">
+<h3 class="anchored" data-anchor-id="use-gitlab">Use GitLab</h3>
+<ul>
+<li>Make an empty repo on GitLab named <code>libminer</code>: https://docs.gitlab.com/ee/user/project/</li>
+<li>Choose <code>empty project</code></li>
+<li>Choose Public or Private</li>
+<li>Uncheck “Initialize repository with a README”</li>
+<li>Click “Create Project”</li>
+<li>Scroll down to “Push an existing folder” section</li>
+<li>Find the line that says <code>git remote add origin https:://gitlab...</code> and copy it to your clipboard.</li>
+<li>Navigate to the Terminal in RStudio and paste the following commands</li>
+</ul>
+<section id="tell-your-git-repository-where-its-corresponding-repository-on-gitlab-is" class="level4">
+<h4 class="anchored" data-anchor-id="tell-your-git-repository-where-its-corresponding-repository-on-gitlab-is">Tell your git repository where its corresponding repository on GitLab is</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">use_github</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://gitlab.com/boshek/foo.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="push-all-your-committed-code-to-that-repository" class="level4">
+<h4 class="anchored" data-anchor-id="push-all-your-committed-code-to-that-repository">Push all your committed code to that repository</h4>
+<p>At this step you may be required to enter in your GitLab username and password.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">--set-upstream</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 </section>
 <section id="set-a-default-description" class="level3">
 <h3 class="anchored" data-anchor-id="set-a-default-description">Set a default DESCRIPTION</h3>
 <p>This avoids having to do this manually every time</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">edit_r_profile</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">edit_r_profile</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And add this to your <code>.Rprofile</code> file</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set usethis options:</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">usethis.description =</span> <span class="fu">list</span>(</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Authors@R"</span> <span class="ot">=</span> utils<span class="sc">::</span><span class="fu">person</span>(</span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Jame"</span>, <span class="st">"Doe"</span>,</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">email =</span> <span class="st">"jane.doe@example.com"</span>,</span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">role =</span> <span class="fu">c</span>(<span class="st">"aut"</span>, <span class="st">"cre"</span>),</span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">comment =</span> <span class="fu">c</span>(<span class="at">ORCID =</span> <span class="st">"0000-1111-2222-3333"</span>)</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(</span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchArgs =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchDollar =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchAttr =</span> <span class="cn">TRUE</span></span>
-<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set usethis options:</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">usethis.description =</span> <span class="fu">list</span>(</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Authors@R"</span> <span class="ot">=</span> utils<span class="sc">::</span><span class="fu">person</span>(</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Jame"</span>, <span class="st">"Doe"</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">email =</span> <span class="st">"jane.doe@example.com"</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">role =</span> <span class="fu">c</span>(<span class="st">"aut"</span>, <span class="st">"cre"</span>),</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">comment =</span> <span class="fu">c</span>(<span class="at">ORCID =</span> <span class="st">"0000-1111-2222-3333"</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchArgs =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchDollar =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">warnPartialMatchAttr =</span> <span class="cn">TRUE</span></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -1046,4 +1056,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/posit-conf-2023/pkg-dev/edit/main/create-pkg-and-metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/posit-conf-2023/pkg-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ateucher/pkg-dev-psc-2024-04-29/edit/main/create-pkg-and-metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ateucher/pkg-dev-psc-2024-04-29/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
