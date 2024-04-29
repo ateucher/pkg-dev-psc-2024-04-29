@@ -518,6 +518,10 @@ use_news_md()
 
 ## Bonus - factoring out an internal function
 
+### First refactor
+
+-   designed to fail CI so don't check() before commiting and pushing
+
 ```{r}
 #' R Library Summary
 #'
@@ -554,6 +558,22 @@ lib_summary <- function(sizes = FALSE) {
 #' @noRd
 calculate_sizes <- function(df) {
   df$lib_size <- map_dbl(
+    df$library,
+    ~ sum(file_size(dir_ls(.x, recurse = TRUE)))
+  )
+  df
+}
+```
+
+```{r}
+#' calculate sizes
+#'
+#' @param df a data.frame
+#'
+#' @return df with a lib_size column
+#' @noRd
+calculate_sizes <- function(df) {
+  df$lib_size <- purrr::map_dbl(
     df$library,
     ~ sum(fs::file_size(fs::dir_ls(.x, recurse = TRUE)))
   )

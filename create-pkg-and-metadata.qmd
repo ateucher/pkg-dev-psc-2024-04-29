@@ -129,7 +129,7 @@ check()
 
 ### Use GitLab
 
--   Make an empty repo on GitLab named `libminer`: https://docs.gitlab.com/ee/user/project/
+-   Make an empty repo on GitLab named `libminer`: <https://docs.gitlab.com/ee/user/project/>
 -   Choose `empty project`
 -   Choose Public or Private
 -   Uncheck "Initialize repository with a README"
@@ -141,7 +141,7 @@ check()
 #### Tell your git repository where its corresponding repository on GitLab is
 
 ```{bash}
-git remote add origin https://gitlab.com/boshek/foo.git
+git remote add origin https://gitlab.com/{your-git-lab-username}/{your-repo-name}
 ```
 
 #### Push all your committed code to that repository

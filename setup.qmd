@@ -137,12 +137,11 @@ Communicating with GitLab requires authentication with your GitLAb account.
 This is achieved by creating and securely storing a Personal Access Token (PAT).
 Although focused more on GitHub, the [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/articles/git-credentials.html) vignette in the **`usethis`** [@usethis] package has details on using PATs, but for now the following should suffice.
 
-Create a PAT using these instructions: 
+Create a PAT using these instructions:
 
-https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token. 
+<https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token>
 
 We suggest the following scopes for this token: api, read_api, read_user, create_runner, read_repository, write_repository.
-
 
 -   Copy the newly generated PAT to your clipboard.
 -   Run `gitcreds::gitcreds_set("https://gitlab.com")` in R and paste in your PAT when prompted.
@@ -184,7 +183,7 @@ Not all of it is relevant now, but it is essential to check whether your name an
 
 ## Troubleshooting
 
-If you are having issues with the setup please start a discussion on GitHub [here](https://github.com/ateucher/pkg-dev-psc-2024-04-29/discussions).  
+If you are having issues with the setup please start a discussion on GitHub [here](https://github.com/ateucher/pkg-dev-psc-2024-04-29/discussions).
 
 ### References
 
