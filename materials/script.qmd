@@ -157,7 +157,7 @@ Go to GitLab page, explore show clone of local
 edit_r_profile()
 ```
 
-*put this in the Discord*
+*put this in the chat*
 
 ```{r}
 # Set usethis options
