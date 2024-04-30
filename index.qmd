@@ -3,8 +3,7 @@ title: "Fundamentals of R Package Development"
 subtitle: "1-Day Workshop"
 ---
 
-🗓️ April 98, 2024\
-⏱️ 09:00 - 17:00\
+🗓️ April 29, 2024 ⏱️ 09:00 - 17:00\
 🌎 Online
 
 ------------------------------------------------------------------------
